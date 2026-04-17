@@ -1,8 +1,8 @@
 import React from 'react'
-import Layout from './components/Layout'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import AppProvider from './context/AppProvider'
+import Layout from './components/Layout'
 import Home from './pages/Home'
-import AppProvider from './context/AppProvider '
 
 const App = () => {
   return (
